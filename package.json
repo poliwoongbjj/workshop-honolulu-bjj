@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Full-stack Jiujitsu technique library application for Workshop Honolulu",
   "scripts": {
-    "server": "cd server && npm run dev",
+    "server": "cd server && npm run start",
     "client": "cd client && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "install-server": "cd server && npm install",
@@ -12,7 +12,15 @@
     "build-client": "cd client && npm run build",
     "db-setup": "mysql -u root -p < database/schema.sql"
   },
-  "keywords": ["jiujitsu", "bjj", "technique", "library", "react", "express", "mysql"],
+  "keywords": [
+    "jiujitsu",
+    "bjj",
+    "technique",
+    "library",
+    "react",
+    "express",
+    "mysql"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
